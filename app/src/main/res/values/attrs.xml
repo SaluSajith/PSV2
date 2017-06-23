@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularImageView">
+        <attr name="civ_border" format="boolean"/>
+        <attr name="civ_border_width" format="dimension"/>
+        <attr name="civ_border_color" format="color"/>
+        <attr name="civ_shadow" format="boolean"/>
+        <attr name="civ_shadow_color" format="color"/>
+        <attr name="civ_shadow_radius" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomStyle">
+        <attr format="string" name="pret_typeface"/>
+        <attr format="integer" name="rating_count"/>
+        <attr format="integer" name="rating_size"/>
+        <attr format="integer" name="rating_progress"/>
+        <attr format="boolean" name="rating_selectable"/>
+        <attr format="integer" name="rating_selected_drawable"/>
+        <attr format="integer" name="rating_unselected_drawable"/>
+    </declare-styleable>
+
+    <declare-styleable name="NotificationBadge">
+        <attr name="nbTextSize" format="dimension"/>
+        <attr name="nbTextColor" format="color" />
+        <attr name="nbBackground" format="reference" />
+        <attr name="nbAnimationEnabled" format="boolean" />
+        <attr name="nbAnimationDuration" format="integer" />
+        <attr name="nbMaxTextLength" format="integer" />
+        <attr name="nbEllipsizeText" format="string" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="dark_gray">#757779</color>
+    <color name="menu_bg">#1c1c1c</color>
+    <color name="yellow">#ffffdf5d</color>
+    <color name="yellow_trans">#ffffdf5d</color>
+    <color name="yellow_indicator">#eac426</color>
+
+    <!--<color name="yellow">#ffffdf5d</color>-->
+    <color name="black">#000000</color>
+    <color name="green">#13af1e</color>
+    <color name="red">#ec1d1d</color>
+    <color name="white">#fff</color>
+    <color name="transparent">#00000000</color>
+    <color name="trans_yellow">#bbffdf5d</color>
+    <color name="trans_grey">#5b5d5e</color>
+    <color name="trending_grey">#cacaca</color>
+
+</resources>
