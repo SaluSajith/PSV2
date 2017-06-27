@@ -21,12 +21,12 @@
         android:layout_height="match_parent"
         android:layout_gravity="bottom"
         android:gravity="bottom"
-        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:layout_margin="@dimen/padding_large"
         android:orientation="horizontal">
 
         <com.hit.pretstreet.pretstreet.core.customview.CircularImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:src="@drawable/logo1"
             android:id="@+id/iv_profile"
             android:layout_gravity="center"/>
@@ -42,8 +42,8 @@
             app:pret_typeface="@string/font_redvelvet_regular"/>
 
         <com.hit.pretstreet.pretstreet.core.customview.CircularImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
             android:src="@drawable/logo1"
             android:id="@+id/iv_notification"
             android:layout_gravity="center"/>

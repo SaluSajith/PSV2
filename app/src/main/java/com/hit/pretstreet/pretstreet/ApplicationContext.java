@@ -2,6 +2,8 @@ package com.hit.pretstreet.pretstreet;
 
 import android.app.Application;
 import android.content.Context;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 
 import com.hit.pretstreet.pretstreet.core.managers.PreferenceManager;
 
@@ -31,13 +33,5 @@ public class ApplicationContext extends Application {
 
         //Singleton SharedPreference
         PreferenceManager.getInstance().setPreferencesHelper(this);
-    }
-    public static int getStatusBarHeight(Context context) {
-        int result = 0;
-        int resourceId = context.getResources().getIdentifier("status_bar_height", "dimen", "android");
-        if (resourceId > 0) {
-            result = context.getResources().getDimensionPixelSize(resourceId);
-        }
-        return result;
     }
 }
